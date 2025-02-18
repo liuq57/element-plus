@@ -27,8 +27,10 @@
     direction="vertical"
     border
     style="margin-top: 20px"
+    :column="4"
   >
     <el-descriptions-item
+      :span="2"
       :rowspan="2"
       :width="140"
       label="Photo"
